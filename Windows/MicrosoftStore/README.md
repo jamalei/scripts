@@ -2,5 +2,10 @@
 
 ![Title Banner](/Windows/MicrosoftStore/media/ms_store.png)
 
+### PURPOSE:
+I created this script to help install the Microsoft Store App to computers where user accounts failed to create it automatically upon account login. These user accounts were known to use a "roaming" profile where their account folders were from a central storage repository.
 
+### Download Link for used Microsoft App Package Files:
 https://store.rg-adguard.net
+
+![Title Banner](/Windows/MicrosoftStore/media/download_repo.png)
