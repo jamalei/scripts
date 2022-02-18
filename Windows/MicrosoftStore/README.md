@@ -8,4 +8,4 @@ I created this script to help install the Microsoft Store App to computers where
 ### Download Link for used Microsoft App Package Files:
 https://store.rg-adguard.net
 
-![Title Banner](/Windows/MicrosoftStore/media/download_repo.png)
+![Title Banner](/Windows/MicrosoftStore/media/repo.png)
