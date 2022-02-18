@@ -8,4 +8,7 @@ I created this script to help install the Microsoft Store App to computers where
 ### Download Link for used Microsoft App Package Files:
 https://store.rg-adguard.net
 
+#### URL Link used for APPX search files:
+https://www.microsoft.com/store/productId/9wzdncrfjbmp
+
 ![Title Banner](/Windows/MicrosoftStore/media/repo.png)
