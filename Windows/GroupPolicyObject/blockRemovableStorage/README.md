@@ -3,7 +3,7 @@
 ![Title Banner](/Windows/GroupPolicyObject/blockRemovableStorage/media/lgpo_editor_path.png)
 
 ### PURPOSE:
-The BAT script "enableBlockRemovableStorage.bat" is used to harden office computers or laptops that are not managed by a corporate domain network by denying access to all removable storage media. This gives some control for data or files leaking out from a secured or private office location. I had to create this script for our local temporary construction field office that works with the U.S. military as their client who requires various forms of cybersecurity control with our office computers. You may use this script to give some control for your company or personal needs.
+The batch file "enableBlockRemovableStorage.bat" is used to harden office computers or laptops that are not managed by a corporate domain network by denying access to all removable storage media. This gives some control for data or files leaking out from a secured or private office location. I had to create this script for our local temporary construction field office that works with the U.S. military as their client who requires various forms of cybersecurity control with our office computers. You may use this script to give some control for your company or personal needs.
 
 ### Power Behind the Script - LGPO.exe Tool
 
@@ -13,7 +13,7 @@ The LGPO.exe is part of the suite of tools from the Microsoft Security Complianc
 
 #### Prerequisites:
 You will need a Windows Pro version platform which enables Group Policy features to manage your computer.
-Be sure to run the BAT script "enableBlockRemovableStorage.bat" with Admin rights to make system changes.
+Be sure to run the batch file "enableBlockRemovableStorage.bat" with Admin rights to make system changes.
 
 #### Target Local Group Policy Editor Path:
 Computer Configuration -> Administrative Templates -> System -> Removable Storage Access
