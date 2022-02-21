@@ -9,4 +9,4 @@ I created these scripts to specifically update a specific user object's field pr
 
 
 #### Reference Links:
-Microsoft Online Documentation: https://docs.microsoft.com/en-us/powershell/module/activedirectory/get-aduser
+Microsoft Online Documentation: https://docs.microsoft.com/en-us/powershell/module/activedirectory
