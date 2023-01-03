@@ -1,7 +1,7 @@
 # README - Set Security Logon Banner Text
 
 ![Title Banner #1](/Windows/GroupPolicyObject/setSecurityBanner/media/regedit_entry.jpg)
-![Title Banner #2](/Windows/GroupPolicyObject/blockRemovableStorage/media/group_policy_entry2.png)
+![Title Banner #2](/Windows/GroupPolicyObject/setSecurityBanner/media/group_policy_entry2.png)
 
 ### PURPOSE:
 The PowerShell script file "setSecurityBanner.ps1" was used to help apply my company's security logon banner via Windows Registry Editor. This script was needed as we had to prepare our computers in our office environment to be compliant following Cybersecurity Maturity Model Certification (CMMC) and NIST 800-171 standards.
