@@ -1,6 +1,6 @@
 # README - Set Security Logon Banner Text
 
-![Title Banner #1](/Windows/GroupPolicyObject/setSecurityBanner/media/regedit_entry.png)
+![Title Banner #1](/Windows/GroupPolicyObject/setSecurityBanner/media/regedit_entry.jpg)
 ![Title Banner #2](/Windows/GroupPolicyObject/blockRemovableStorage/media/group_policy_entry2.png)
 
 ### PURPOSE:
