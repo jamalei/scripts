@@ -1,44 +1,33 @@
-# README - Block Removable Storage via CMD
+# README - Set Security Logon Banner Text
 
-![Title Banner](/Windows/GroupPolicyObject/blockRemovableStorage/media/lgpo_editor_path.png)
+![Title Banner #1](/Windows/GroupPolicyObject/setSecurityBanner/media/regedit_entry.png)
+![Title Banner #2](/Windows/GroupPolicyObject/blockRemovableStorage/media/group_policy_entry2.png)
 
 ### PURPOSE:
-The batch file "enableBlockRemovableStorage.bat" is used to harden office computers or laptops that are not managed by a corporate domain network by denying access to all removable storage media. This gives some control for data or files leaking out from a secured or private office location. I had to create this script for our local temporary construction field office that works with the U.S. military as their client who requires various forms of cybersecurity control with our office computers. You may use this script to give some control for your company or personal needs.
-
-### Power Behind the Script - LGPO.exe Tool
-
-![LGPO Help Window](/Windows/GroupPolicyObject/blockRemovableStorage/media/lgpo_console.png)
-
-The LGPO.exe is part of the suite of tools from the Microsoft Security Compliance Toolkit 1.0. It is a new command-line utility to automate the management of local group policy. It replaces the no-longer-maintained LocalGPO tool that shipped with the Security Compliance Manager (SCM), and the Apply_LGPO_Delta and ImportRegPol tools. I use this tool to enable or disable the policy setting "All Removable Storage classes: Deny all access" in the Local Group Policy Editor.
+The PowerShell script file "setSecurityBanner.ps1" was used to help apply my company's security logon banner via Windows Registry Editor. This script was needed as we had to prepare our computers in our office environment to be compliant following Cybersecurity Maturity Model Certification (CMMC) and NIST 800-171 standards.
 
 #### Prerequisites:
 You will need a Windows Pro version platform which enables Group Policy features to manage your computer.
-Be sure to run the batch file "enableBlockRemovableStorage.bat" with Admin rights to make system changes.
+Be sure to run the Windows PowerShell script file "setSecurityBanner.ps1" with Admin rights to make system changes.
+
+#### Target Windows Registry Editor Path:
+HKLM - \SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
 
 #### Target Local Group Policy Editor Path:
-Computer Configuration -> Administrative Templates -> System -> Removable Storage Access
+Computer Configuration -> Windows Settings -> Security Options
 
-#### Policy Setting:
-All Removable Storage classes: Deny all access
+### Windows PowerShell Script Window - Screenshots of Code Flow
+![Program Window #1](/Windows/GroupPolicyObject/setSecurityBanner/media/screen_1.png)
 
-### CMD Script Window - Screenshots of Code Flow
-![Program Window #1](/Windows/GroupPolicyObject/blockRemovableStorage/media/scriptWindow1.png)
+![Program Window #2](/Windows/GroupPolicyObject/setSecurityBanner/media/screen_2_yes.png)
 
-![Program Window #2](/Windows/GroupPolicyObject/blockRemovableStorage/media/scriptWindow2.png)
+![Program Window #3](/Windows/GroupPolicyObject/setSecurityBanner/media/screen_2_no.png)
 
-![Program Window #4](/Windows/GroupPolicyObject/blockRemovableStorage/media/scriptWindow4.png)
-
-![Program Window #5](/Windows/GroupPolicyObject/blockRemovableStorage/media/scriptWindow5.png)
-
-![Program Window #3](/Windows/GroupPolicyObject/blockRemovableStorage/media/scriptWindow3.png)
 
 ### Reference Links:
 
-#### Microsoft Online Documentation - Microsoft Security Compliance Toolkit 1.0:
-https://docs.microsoft.com/en-us/windows/security/threat-protection/security-compliance-toolkit-10
+#### How to Change Registry Entries Using PowerShell
+https://www.thewindowsclub.com/change-registry-using-windows-powershell
 
-#### LGPO.exe Tool Documentation:
-https://techcommunity.microsoft.com/t5/microsoft-security-baselines/lgpo-exe-local-group-policy-object-utility-v1-0/ba-p/701045
-
-#### Download Link - Microsoft Security Compliance Toolkit 1.0 - (with LGPO Tool):
-https://www.microsoft.com/en-us/download/details.aspx?id=55319
+#### Microsoft Documentation API - PowerShell - IF statement blocks
+https://learn.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-if?view=powershell-7.3
