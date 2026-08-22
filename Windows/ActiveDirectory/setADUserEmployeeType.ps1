@@ -1,6 +1,6 @@
 ﻿# Program Title: setADEmployeeType.ps1
 # Last Updated By: 08/22/2026 - BCC - Joey S. Amalei
-# Purpose: Reads a CSV file and then sets the comment properties of AD Users
+# Purpose: Reads a CSV file and then sets the EmployeeType properties of AD Users
 #
 
 # Import needed modules
