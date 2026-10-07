@@ -5,7 +5,7 @@
 <br>
 <br>
 
-![Theme Preview #1](/media/bcc_email.png)
+![Theme Preview #1](/media/bcc_shine.gif)
 <br>
 A Subsidary of
 <br>
