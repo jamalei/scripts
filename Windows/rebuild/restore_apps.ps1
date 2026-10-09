@@ -11,5 +11,5 @@ $apps = @(
 )
 
 foreach ($app in $apps) {
-    winget install --id $apps -e --silent --accept-package-agreements --accept-source-agreements
+    winget install --id $app -e --silent --accept-package-agreements --accept-source-agreements
 }
